@@ -1,0 +1,130 @@
+.thumbnail{
+    width:100%;    
+}
+.thumbnail-row{
+    margin-bottom:8px;
+    position:relative;
+    
+    
+}
+
+.video-title{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family:Roboto,Arial;
+    font-size:18px;
+    font-weight:400;
+    line-height:26px;
+    cursor:pointer;
+        
+}
+.video-views{
+    margin-top:0px;
+    color:rgb(123, 119, 119);
+    font-family:Roboto,Arial;
+    font-size:12px;    
+    cursor:pointer;
+    
+}
+.video-author{
+    color:rgb(123, 119, 119);
+    font-family:Roboto,Arial;
+    font-size:12px; 
+    cursor:pointer;
+   
+    
+}
+
+.video-info-grid{
+    display:grid;
+    grid-template-columns:50px 1fr;
+}
+.channel-pic{
+    width:30px;
+    border-radius:50px;
+    
+}
+
+.c-pic{
+    width:30px;
+    border-radius:50px;
+
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap:15px;
+    row-gap:30px;
+
+}
+@media (max-width: 750px){
+    .video-grid{
+        grid-template-columns:1fr 1fr; 
+    }
+
+}
+
+@media (min-width: 751px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns:1fr 1fr 1fr; 
+    }
+
+}
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns:1fr 1fr 1fr 1fr; 
+    }
+
+}
+.video-time{
+    font-family:Roboto,Arial;
+    font-size:10px;
+    font-weight:500;
+    padding:4px;
+    border-radius:2px;
+    background-color: black;
+    color:white;
+    position:absolute;
+    bottom:8px;
+    right: 5px;
+}
+.buy{
+    background-color:blue;
+    color:white;
+    border:none;
+    font-style:bold;
+    border-radius:25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    transition:opacity 1s;
+}
+.buy:hover{
+    background-color:rgb(85, 85, 255);
+    color:white;
+}
+.buy:active{
+    background-color: rgb(166, 154, 242);
+}
+.join{
+    background-color:white;
+    color:black;
+    border:none;
+    font-size:14px;
+    border-radius:25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    transition:opacity 1s;
+}
+
+.join:hover{
+    background-color:rgb(50, 50, 236);
+    color:white;
+}
+.join:active{
+    background-color: rgb(166, 154, 242);
+}
